@@ -1,0 +1,91 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #0e1117;
+  color: #e4e6eb;
+}
+
+.App {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00d084;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #f0f2f5;
+}
+
+form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+form input {
+  background: #1c1f26;
+  border: 1px solid #333;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  color: #e4e6eb;
+  font-size: 0.95rem;
+}
+
+form input::placeholder {
+  color: #8a8d91;
+}
+
+form button {
+  background: #00d084;
+  color: #0e1117;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+form button:hover {
+  background: #05b774;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #1c1f26;
+  border: 1px solid #2a2d35;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span.symbol {
+  font-weight: 600;
+  color: #00d084;
+}
+
+li span.details {
+  color: #f0f2f5;
+}
+li span.price {
+  font-weight: 700;
+  color: #e4e6eb;
+}
