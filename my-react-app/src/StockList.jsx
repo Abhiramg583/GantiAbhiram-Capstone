@@ -31,7 +31,7 @@ export default function StockList() {
     setStocks(updatedStocks);
   };
 
-  // Run every 60 seconds
+  
   const interval = setInterval(fetchCurrentPrices, 60000);
   fetchCurrentPrices();
 
